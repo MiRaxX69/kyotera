@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="logo.png" alt="Italiano" class="logo" ></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">KYOTERRA
+                  <span class="sr-only">(current)</span>
+                </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> POURQUOI UNE FONDATION ?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">REFERENCES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Full Page Image Header with Vertically Centered Content -->
+  
+  <header class="masthead" id="HY">
+  
+    <div class="container h-100">
+      
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          
+          <h1 id="titre" class="font-weight-light">H1 - Titre de la page</h1>
+          <p id="soustitre" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmodt.</p>
+          
+        </div>
+       
+      </div>
+     
+    </div>
+
+  </header>
+
+  <!-- Page Content -->
+  <section class="">
+    <div class="container">
+      <h2 class="fonter">Accueil > Titre de la page</h2>
+          </div>                 
+  </section>                           
+  
+</div>
+
+
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-12 order-12">
+       
+      <h2 class="fonte" style="
+    margin-top: 20px;
+" id="section" >H2 - Titre </h2>
+      <h3 class="fon" id="Se">H3 - Titre </h3>
+      <p class="ty" id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel sapien et lacus tempus varius. In finibus lorem vel neque vulputate, vel porta magna molestie. Sed eu egestas ex, a posuere libero. Quisque ac placerat felis. Etiam non neque ac odio consequat interdum vitae eget sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. In et est ut metus lacinia pretium. Donec consequat, ligula eget suscipit laoreet, sem orci molestie tellus, ut pellentesque erat augue non neque.
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel sapien et lacus tempus varius. In finibus lorem vel neque vulputate, vel porta magna molestie. Sed eu egestas ex, a posuere libero. Quisque ac placerat felis. Etiam non neque ac odio consequat interdum vitae eget sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. This is how a normal paragraph looks like in Bootstrap.</p>
+          <div class="ftg">
+            <p id="citation">
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. pellentesque dapibus
+          In et est ut metus lacinia pretium.
+            </p>
+          </div>
+          <ul class="yui" id="liste">
+            
+            
+          </ul>
+          <img id="pict1" src="home-grey-bg.jpg" class="rounded mx-auto d-block tg" alt="..." id="illustration"/>
+
+        
+    </div>
+ 
+  </div>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small black pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+<!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+             
+        <!-- Content -->
+         <p class="ez">
+<img src="https://www.edenschool.fr/wp-content/uploads/2017/01/logovert.png" alt="Smiley face" style="float:left">
+Un site réalisé par EDEN School 
+L’école Digitale et Numérique des 14 / 18 ans
+
+1ère école en France qui forme des élèves motivé.e.s par les métiers du numérique 
+dès la fin de la 3ème sur le modèle pédagogique des écoles de production. 
+</p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+
+</footer>
+<!-- Footer -->
+
+<script>
+
+chercher();
+
+function chercher(){
+
+  var url = "https://private-92c93-ramzi.apiary-mock.com/questions";
+  var req = new XMLHttpRequest();
+  req.open('GET',url, true);
+  req.addEventListener('readystatechange',changementEtat);
+  req.send();
+}
+
+
+function changementEtat(data){
+		if(data.target.readyState==4){
+      console.log(data);
+			console.log(data.target.response)
+      var donnes = JSON.parse(data.target.response);
+      document.getElementById('titre').innerHTML=donnes.titre;
+      document.getElementById('soustitre').innerHTML=donnes.soustitre;
+      document.getElementById('section').innerHTML=donnes.section;
+      document.getElementById('description').innerHTML=donnes.description;
+      document.getElementById('Se').innerHTML=donnes.Se;illustration
+      document.getElementById('citation').innerHTML=donnes.citation;
+      
+  
+
+
+
+      var tab = donnes.liste;
+       console.log(tab);
+     
+      for(var i= 0; i < tab.length; i++)
+      {
+          // document.write(x[i]);
+          document.getElementById('liste').innerHTML += "<li>"+tab[i]+"</li>";
+          
+      }
+     
+    
+		}
+}
+
+
+
+
+
+
+var v = document.getElementById('pict1');
+v.setAttribute("src","https://thumbs.gfycat.com/ImmaterialTinyAcornbarnacle-size_restricted.gif");
+</script>
+</body>
+</html>
+
+
+
+
+

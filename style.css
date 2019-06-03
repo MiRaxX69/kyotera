@@ -1,0 +1,219 @@
+body{
+  font-family: "Helvetica Neue - Thin";
+
+}
+
+
+.pt-4, .py-4 {
+  padding-top: 1.5rem;
+}
+.masthead {
+    /* Style for "AdobeStock" */
+
+height: 511px;
+    background-image: url('Capture.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Style for "Calque 1" */
+  }
+  .logo{
+      /* Style for "Kyoterra-l" */
+width: 227px;
+height: 72px;
+  }
+
+
+
+
+  .navbar-nav ml-auto{
+/* Style for "Kyoterra" */
+width: 649px;
+height: 12px;
+color: #1d1b1e;
+font-family: "Helvetica Neue - Thin";
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+  }
+
+  .font-weight-light{
+/* Style for "H1 - Titre" */
+width: 391px;
+height: 39px;
+color: white;
+font-family: "Helvetica Neue";
+font-size: 42px;
+font-weight: bold;
+line-height: 62px;
+  }
+  .lead{
+/* Style for "Lorem ipsu" */
+width: 544px;
+height: 16px;
+color: #ffffff;
+font-family: "Helvetica Neue - Thin";
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+  }
+
+  .fonter{
+    /* Style for "Accueil >" */
+width: 148px;
+height: 12px;
+color: #2d2a2f;
+font-family: "Helvetica Neue";
+font-size: 13px;
+font-weight: 400;
+line-height: 29px;
+  }
+
+ 
+  .fonte{
+/* Style for "H2 - Titre" */
+
+color: #1d1b1e;
+font-family: "Helvetica Neue";
+font-size: 42px;
+font-weight: bold;
+line-height: 40px;
+  }
+  .fon{
+    /* Style for "H3 - Titre" */
+width: 119px;
+height: 18px;
+color: #1d1b1e;
+font-family: "Helvetica Neue - Thin";
+font-size: 24px;
+font-weight: bold;
+line-height: 40px;
+margin-top: 49px;
+margin-bottom: 50px;
+  }
+ 
+  .yt{
+    /* Style for "white bg" */
+width: 798px;
+height: 1268px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.11);
+background-color: #ffffff;
+  }
+  .tg{
+    /* Style for "gray bg" */
+width: 740px;
+height: 340px;
+margin-top: 100px;
+  }
+  .bs-example{
+    /* Style for "Lorem ipsu" */
+width: 744px;
+height: 179px;
+color: #605a64;
+font-family: "Helvetica Neue - Thin";
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+/* Text style for "Interdum e" */
+
+  }
+  .font-small {
+    background-color: black;
+}
+img{
+    /* Style for "logovert" */
+  width: 69px;
+  height: 31px;
+  }
+.ez{
+  /* Style for "Un site ré" */
+width: 448px;
+height: 90px;
+opacity: 0.55;
+color: #ffffff;
+
+font-size: 12px;
+font-weight: 300;
+line-height: 19px;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+
+.order-12{
+    /* Style for "white bg" */
+    width: 798px;
+    height: 1268px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.11);
+    background-color: #ffffff;
+}
+.row{
+  margin-top: 110px;
+}
+.ty{
+  margin-top: 49px;
+}
+
+.ftg
+{
+  background-image: url("gray_bg.png");
+ /* Style for "gray bg" */
+width: 740px;
+height: 84px;
+  display: table; 
+  background:grey; 
+  margin-top: 100px;
+  margin-left: 190px; 
+  margin-bottom: 100px;
+}
+
+
+p {
+  text-align:center; 
+  vertical-align: middle;
+  display: table-cell;   
+}
+
+.yui{
+  /* Style for "Nam bibend" */
+width: 405px;
+height: 163px;
+color: #605a64;
+font-family: "Helvetica Neue - Thin";
+font-size: 13px;
+font-weight: 400;
+line-height: 38px;
+}
+
+
+#overlay {
+  width: 1900px;
+height: 511px;
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.35; 
+  margin-top: 0px;
+  z-index: 2;
+}
+.logio {
+  position: relative;
+  background-color: black;
+	padding: 1em;
+	height: 100vh;
+	&:before {
+		content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+		background-image: url(".logo");
+  	background-size: cover;
+		background-repeat: no-repeat;
+    background-position: 65% 50%;
+		opacity: 0.4;
+	}
+}
